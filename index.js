@@ -116,10 +116,10 @@ function doPage(page = 0) {
                     items.forEach(item => {                    
                         rss.addItem({
                             id: item.id,
-                            title: item.titre,
+                            title: item.title,
                             link: item.link,
                             category: [{
-                                name: item.categorie
+                                name: item.category
                             }],
                             description: item.content.substring(0, 140),
                             content: item.content,
